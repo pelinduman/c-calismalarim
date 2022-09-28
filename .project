@@ -1,17 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<projectDescription>
-	<name>intro</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-	</natures>
-</projectDescription>
+package intro;
+
+public class Main {
+	public static void main (String[] args) {
+		
+		System.out.println("Hello Word");
+		
+		int sayi1 = 20;
+		int sayi2 = 48;
+		int sayi3= 100;
+		int enBuyuk = sayi2;
+	
+	if(enBuyuk<sayi3) {
+		enBuyuk= sayi3;
+	}
+	if(enBuyuk<sayi1) {
+		enBuyuk=sayi1;
+	}
+	
+	
+	System.out.println("En büyük sayı:"+ enBuyuk);
+			
+	}
+	
+
+}
+
